@@ -3,16 +3,26 @@
 </p>
 
 ## Description
+- NestJS
+- PostMan
+- MongoDB-Compass
+- MongoDB
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Installation and Run
 
-## Installation
+### Install and launch MongoDB Compass on Linux 
+```bash
+$ wget https://downloads.mongodb.com/compass/mongodb-compass_1.29.6_amd64.deb
+$ sudo dpkg -i mongodb-compass_1.29.6_amd64.deb 
+$ mongodb-compass
+```
 
+### Install project
 ```bash
 $ npm install
 ```
 
-## Running the app
+### Running the app
 
 ```bash
 # development
@@ -24,5 +34,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-
